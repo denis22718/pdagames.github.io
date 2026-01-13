@@ -177,7 +177,7 @@ header {
 
 .game-card-icon {
   width: min(180px, 40%);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 16 / 9;
   border-radius: 22px;
   border: 1px solid var(--border);
   background: var(--surface);
