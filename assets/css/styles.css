@@ -101,14 +101,6 @@ header {
   cursor: pointer;
 }
 
-.button-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  margin-right: 12px;
-  object-fit: cover;
-}
-
 .button.primary {
   background: var(--accent);
   color: #0f172a;
@@ -165,6 +157,16 @@ header {
 
 .card p {
   color: var(--muted);
+}
+
+.game-card-icon {
+  width: min(180px, 60%);
+  aspect-ratio: 1 / 1;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  object-fit: cover;
+  justify-self: start;
 }
 
 .tag {
