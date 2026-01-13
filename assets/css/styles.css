@@ -159,14 +159,30 @@ header {
   color: var(--muted);
 }
 
+.card-title-centered {
+  text-align: center;
+  width: 100%;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.card-row p {
+  margin: 0;
+}
+
 .game-card-icon {
-  width: min(180px, 60%);
+  width: min(180px, 40%);
   aspect-ratio: 1 / 1;
   border-radius: 22px;
   border: 1px solid var(--border);
   background: var(--surface);
   object-fit: cover;
-  justify-self: start;
+  flex-shrink: 0;
 }
 
 .tag {
