@@ -101,6 +101,14 @@ header {
   cursor: pointer;
 }
 
+.button-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
 .button.primary {
   background: var(--accent);
   color: #0f172a;
@@ -138,6 +146,19 @@ header {
   gap: 12px;
 }
 
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-header img {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
 .card h3 {
   font-size: 1.1rem;
 }
@@ -157,6 +178,20 @@ header {
   border: 1px solid rgba(56, 189, 248, 0.4);
   color: var(--accent);
   width: fit-content;
+}
+
+.screenshots-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.screenshot {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  object-fit: cover;
 }
 
 footer {
