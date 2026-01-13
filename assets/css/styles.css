@@ -102,10 +102,10 @@ header {
 }
 
 .button-icon {
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
-  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 12px;
   object-fit: cover;
 }
 
